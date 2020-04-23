@@ -12,22 +12,36 @@
 
 <body>
 	
-	<nav class="navbar sticky-top navbar-light">
-	<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Main Menu
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Tranquillity Throughout</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="index.html">Home</a>
-    <a class="dropdown-item" href="about.html">About Us</a>
-    <a class="dropdown-item" href="services.html">Services We Provide</a>
-    <a class="dropdown-item" href="advice.html">Some Advice and Experiences From Others</a>
-	<a class="dropdown-item" href="relaxation.html">Relaxation techniques</a>
-	<a class="dropdown-item" href="testimonials.html">Testimonials</a>
-    <a class="dropdown-item" href="contact.html">Get in touch</a>
-	<a class="dropdown-item" href="design.html">Design Justifications</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          What We Do
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="advice.html">Advice and Experiences</a>
+          <a class="dropdown-item" href="relaxation.html">Relaxation techniques</a>
+          <div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="testimonials.html">Testimonials</a>
+        </div>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="contact.html">Get In Touch!</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="design.html">Design Justifications</a>
+      </li>
+    </ul>
   </div>
-</div>
 </nav>
 	
 	<script
